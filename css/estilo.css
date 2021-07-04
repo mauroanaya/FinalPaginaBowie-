@@ -1,0 +1,114 @@
+@font-face
+{
+font-family:ViceCitySans;
+src: url(../fuentes/Vice_City_Sans/ViceCitySans.otf)
+}
+
+.letravicecity {
+
+        font-family: ViceCitySans;
+        
+}
+
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+@keyframes tamano {
+    from{
+        width: 50px;
+        height: 50px;
+    }
+    to{
+        width: 150px;
+        height: 150px;
+    }
+}
+.tamano{
+    
+    animation: tamano 2s ;
+}
+
+
+@-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+.menucolor:hover{
+    color: #FF0000;
+}
+           
+        
+
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+   
+    animation: rotating 2s linear infinite;
+  }
+
+.disco{
+    width: 250px;
+    height: 250px;
+}
+
+
+@media (max-width: 790px) {
+  
+  .disco{
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 375px) {
+  
+  .disco{
+    width: 100px;
+    height: 100px;
+  }
+
+  .titulo{
+    font-size: 15px;
+  }
+
+}
+
+
+
